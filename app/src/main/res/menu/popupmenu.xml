@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/anasayfa"
+        android:title="Anasayfa"/>
+    <item
+        android:id="@+id/renkler"
+        android:title="Renkler"/>
+    <item
+        android:id="@+id/gorunurluk"
+        android:title="Gorunurluk"/>
+    <item
+        android:id="@+id/hareket"
+        android:title="Hareket"/>
+    <item
+        android:id="@+id/ozelToast"
+        android:title="Özel Toast"/>
+
+
+</menu>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragmentRenkler"
+    android:background="#84FFFF"
+    android:id="@+id/fragmentRenk">
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yazı Rengi"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        />
+
+    <Spinner
+        android:id="@+id/yaziRengi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yazı Arkaplan Rengi"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        />
+
+    <Spinner
+        android:id="@+id/arkaplanRengi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment Arkaplan Rengi"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        />
+
+    <Spinner
+        android:id="@+id/fragmentRengi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/isimText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seyfullah ŞALIŞ 02185076051"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:textColor="#84FFFF"
+        />
+</LinearLayout>
